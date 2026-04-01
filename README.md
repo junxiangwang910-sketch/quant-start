@@ -1,36 +1,81 @@
 # quant-start
 
-My quantitative trading learning repository.
+This repository records my beginner journey in quantitative trading research.
 
 ## Goal
-This repository records my progress in learning quantitative research, backtesting, and factor analysis.
 
-## Planned Projects
-### 1. Market Data Analysis
-- Download historical price data
-- Compute returns, volatility, and drawdown
-- Visualize trends and correlations
+The goal of this repository is to learn and document the core building blocks of quantitative investing, including:
 
-### 2. Strategy Backtesting
-- Moving average crossover strategy
-- Compare strategy performance with buy-and-hold
-- Include transaction cost considerations
+- market data analysis
+- factor research
+- backtesting
+- strategy development
+- risk management
 
-### 3. Factor Research
-- Momentum factor
-- Mean reversion factor
-- Parameter sensitivity analysis
+## Project Roadmap
 
-## Tools
+### 01 Data Analysis
+
+This project focuses on downloading and analyzing historical market data.
+
+Main tasks:
+
+- download price data
+- calculate return metrics
+- measure volatility
+- visualize normalized price trends
+- study cross-asset correlation
+
+Outputs include:
+
+- summary statistics
+- correlation matrix
+- normalized price chart
+
+### 02 Factor Research
+
+This project introduces beginner-friendly factor research using a simple momentum factor.
+
+Main tasks:
+
+- define a 20-day momentum factor
+- rank assets by factor value
+- compare future returns
+- run a rolling factor test
+- analyze long-short factor performance
+
+Outputs include:
+
+- rolling backtest results
+- backtest summary
+- cumulative return chart
+
+## Current Progress
+
+- [x] 01 Data Analysis
+- [x] 02 Factor Research
+- [ ] 03 Backtesting
+- [ ] 04 Strategy Development
+- [ ] 05 Risk Management
+
+## Tools Used
+
 - Python
-- pandas
-- numpy
-- matplotlib
 - yfinance
-- Jupyter Notebook
+- pandas
+- matplotlib
+- GitHub
 
-## Progress
-- [x] Created GitHub repository
-- [ ] Upload first data analysis notebook
-- [ ] Complete first backtest project
-- [ ] Start factor research
+## What I Learned So Far
+
+Through these first two projects, I learned how to:
+
+- build a GitHub project structure
+- write and run Python research scripts locally
+- save outputs as CSV and PNG files
+- use Git and GitHub for version control
+- move from simple data analysis into factor research
+
+## Next Step
+
+The next step is to build a simple backtesting project and connect factor research to strategy testing.
